@@ -18,5 +18,8 @@ STREAM big csv edgelist
 https://drive.google.com/file/d/1bm_d2BxyiD9o-QFpwz59cXqHOli7q5g_/view?usp=sharing
 
 
-Gephi graph file:
+Gephi graph file all nodes:
 https://drive.google.com/file/d/1UNm2yujBWsdxySoaTQvMMGkVM_DmNi7K/view?usp=sharing
+
+Gephi graph file (degree > 23)
+https://drive.google.com/file/d/1RwYdIEZGbklh83MjkDvF-GucUdR0VclT/view?usp=sharing
