@@ -16,3 +16,7 @@ https://drive.google.com/file/d/1bm_d2BxyiD9o-QFpwz59cXqHOli7q5g_/view?usp=shari
 
 STREAM big csv edgelist
 https://drive.google.com/file/d/1bm_d2BxyiD9o-QFpwz59cXqHOli7q5g_/view?usp=sharing
+
+
+Gephi graph file:
+https://drive.google.com/file/d/1UNm2yujBWsdxySoaTQvMMGkVM_DmNi7K/view?usp=sharing
