@@ -17,6 +17,12 @@ https://drive.google.com/file/d/1bm_d2BxyiD9o-QFpwz59cXqHOli7q5g_/view?usp=shari
 STREAM big csv edgelist
 https://drive.google.com/file/d/1bm_d2BxyiD9o-QFpwz59cXqHOli7q5g_/view?usp=sharing
 
+
+STREAM ALL putin annex ukraine
+twarc2 search "putin annex ukraine" ./ukrain_annex.jsonl --start-time 2022-09-30 --end-time 2022-10-2 --limit 1000000
+https://drive.google.com/file/d/10AkcLJndY3wFtCbRNj00x5LSudh3WVsb/view?usp=sharing
+
+
 # GRAPHS
 
 Gephi graph file all nodes:
