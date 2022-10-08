@@ -22,3 +22,6 @@ https://drive.google.com/file/d/1RwYdIEZGbklh83MjkDvF-GucUdR0VclT/view?usp=shari
 # COMMUNITIES
 SBCC 100 communities
 https://drive.google.com/drive/folders/1ZlDVAKBoUDvLsLI6MRXMWVgPpSLb8a4t?usp=sharing
+
+ECG communities (best approach)
+https://drive.google.com/drive/folders/1rIaIWSIDr-8nmNQaIV0x2g-leb5zQleY?usp=sharing
