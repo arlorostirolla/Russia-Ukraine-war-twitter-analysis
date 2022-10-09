@@ -34,3 +34,7 @@ https://drive.google.com/file/d/1RwYdIEZGbklh83MjkDvF-GucUdR0VclT/view?usp=shari
 # COMMUNITIES
 SBCC 100 communities
 https://drive.google.com/drive/folders/1ZlDVAKBoUDvLsLI6MRXMWVgPpSLb8a4t?usp=sharing
+
+
+# ANNEX DATA
+https://drive.google.com/drive/folders/123uSY0OL5AvB2x0LNPQ13oH3mSdFsEsW?usp=sharing

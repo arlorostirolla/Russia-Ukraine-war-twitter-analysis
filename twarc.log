@@ -9723,3 +9723,43 @@
 2022-10-03 22:42:19,027 INFO getting ('https://api.twitter.com/2/tweets/search/recent',) {'params': {'expansions': 'author_id,in_reply_to_user_id,referenced_tweets.id,referenced_tweets.id.author_id,entities.mentions.username,attachments.poll_ids,attachments.media_keys,geo.place_id,edit_history_tweet_ids', 'tweet.fields': 'attachments,author_id,context_annotations,conversation_id,created_at,entities,geo,id,in_reply_to_user_id,lang,public_metrics,text,possibly_sensitive,referenced_tweets,reply_settings,source,withheld,edit_controls', 'user.fields': 'created_at,description,entities,id,location,name,pinned_tweet_id,profile_image_url,protected,public_metrics,url,username,verified,withheld', 'media.fields': 'alt_text,duration_ms,height,media_key,preview_image_url,type,url,width,public_metrics', 'poll.fields': 'duration_minutes,end_datetime,id,options,voting_status', 'place.fields': 'contained_within,country,country_code,full_name,geo,id,name,place_type', 'start_time': '2022-09-30T00:00:00+00:00', 'end_time': '2022-10-02T00:00:00+00:00', 'query': 'putin annex ukraine', 'max_results': 100, 'next_token': 'b26v89c19zqg8o3fpzblrzbxnmdmxvzmn86yyza05otx9'}}
 2022-10-03 22:42:19,685 INFO archived 1575637511971295232,1575637345038401536,1575637304596570114,1575637245830500353,1575637173671694336,1575637143833432064,1575637064066138112,1575636814064685056,1575636695902523392,1575636689049260032,1575636601367142404,1575636552964636673
 2022-10-03 22:42:19,685 INFO No more results for search putin annex ukraine.
+2022-10-09 12:17:40,735 INFO using config /home/soldier/.config/twarc/config
+2022-10-09 12:17:40,736 INFO creating HTTP session headers for app auth.
+2022-10-09 12:17:40,737 INFO creating config file: /home/soldier/.config/twarc/config
+2022-10-09 12:18:36,067 INFO using config /home/soldier/.config/twarc/config
+2022-10-09 12:18:36,067 INFO creating HTTP session headers for app auth.
+2022-10-09 12:18:36,068 INFO creating config file: /home/soldier/.config/twarc/config
+2022-10-09 12:21:07,110 INFO using config /home/soldier/.config/twarc/config
+2022-10-09 12:21:07,111 INFO creating HTTP session headers for app auth.
+2022-10-09 12:21:14,795 ERROR CSV Unexpected Data: "edit_controls.is_edit_eligible,edit_history_tweet_ids,edit_controls.edits_remaining,edit_controls.editable_until". Expected 74 columns, got 65. Skipping entire batch of 9986 tweets!
+2022-10-09 12:21:22,762 ERROR CSV Unexpected Data: "edit_controls.is_edit_eligible,edit_history_tweet_ids,edit_controls.edits_remaining,edit_controls.editable_until". Expected 74 columns, got 65. Skipping entire batch of 9973 tweets!
+2022-10-09 12:21:30,772 ERROR CSV Unexpected Data: "edit_controls.is_edit_eligible,edit_history_tweet_ids,edit_controls.edits_remaining,edit_controls.editable_until". Expected 74 columns, got 68. Skipping entire batch of 9950 tweets!
+2022-10-09 12:21:33,955 ERROR CSV Unexpected Data: "edit_controls.is_edit_eligible,edit_history_tweet_ids,edit_controls.edits_remaining,edit_controls.editable_until". Expected 74 columns, got 65. Skipping entire batch of 3602 tweets!
+2022-10-09 12:22:44,158 INFO using config /home/soldier/.config/twarc/config
+2022-10-09 12:22:44,158 INFO creating HTTP session headers for app auth.
+2022-10-09 12:22:51,672 ERROR CSV Unexpected Data: "edit_controls.edits_remaining,edit_controls.editable_until,edit_controls.is_edit_eligible,edit_history_tweet_ids". Expected 74 columns, got 65. Skipping entire batch of 9986 tweets!
+2022-10-09 12:22:59,257 ERROR CSV Unexpected Data: "edit_controls.edits_remaining,edit_controls.editable_until,edit_controls.is_edit_eligible,edit_history_tweet_ids". Expected 74 columns, got 65. Skipping entire batch of 9973 tweets!
+2022-10-09 12:23:06,963 ERROR CSV Unexpected Data: "edit_controls.edits_remaining,edit_controls.editable_until,edit_controls.is_edit_eligible,edit_history_tweet_ids". Expected 74 columns, got 68. Skipping entire batch of 9950 tweets!
+2022-10-09 12:23:10,055 ERROR CSV Unexpected Data: "edit_controls.edits_remaining,edit_controls.editable_until,edit_controls.is_edit_eligible,edit_history_tweet_ids". Expected 74 columns, got 65. Skipping entire batch of 3602 tweets!
+2022-10-09 12:23:27,499 INFO using config /home/soldier/.config/twarc/config
+2022-10-09 12:23:27,499 INFO creating HTTP session headers for app auth.
+2022-10-09 12:23:55,902 INFO using config /home/soldier/.config/twarc/config
+2022-10-09 12:23:55,902 INFO creating HTTP session headers for app auth.
+2022-10-09 12:24:00,101 INFO using config /home/soldier/.config/twarc/config
+2022-10-09 12:24:00,102 INFO creating HTTP session headers for app auth.
+2022-10-09 12:24:07,605 ERROR CSV Unexpected Data: "edit_controls.edits_remaining,edit_history_tweet_ids,edit_controls.editable_until,edit_controls.is_edit_eligible". Expected 74 columns, got 65. Skipping entire batch of 9986 tweets!
+2022-10-09 12:24:15,393 ERROR CSV Unexpected Data: "edit_controls.edits_remaining,edit_history_tweet_ids,edit_controls.editable_until,edit_controls.is_edit_eligible". Expected 74 columns, got 65. Skipping entire batch of 9973 tweets!
+2022-10-09 12:24:23,225 ERROR CSV Unexpected Data: "edit_controls.edits_remaining,edit_history_tweet_ids,edit_controls.editable_until,edit_controls.is_edit_eligible". Expected 74 columns, got 68. Skipping entire batch of 9950 tweets!
+2022-10-09 12:24:26,303 ERROR CSV Unexpected Data: "edit_controls.edits_remaining,edit_history_tweet_ids,edit_controls.editable_until,edit_controls.is_edit_eligible". Expected 74 columns, got 65. Skipping entire batch of 3602 tweets!
+2022-10-09 12:24:51,971 INFO using config /home/soldier/.config/twarc/config
+2022-10-09 12:24:51,971 INFO creating HTTP session headers for app auth.
+2022-10-09 12:55:07,798 INFO using config /home/soldier/.config/twarc/config
+2022-10-09 12:55:07,798 INFO creating HTTP session headers for app auth.
+2022-10-09 12:55:41,098 INFO using config /home/soldier/.config/twarc/config
+2022-10-09 12:55:41,098 INFO creating HTTP session headers for app auth.
+2022-10-09 12:56:09,035 INFO using config /home/soldier/.config/twarc/config
+2022-10-09 12:56:09,036 INFO creating HTTP session headers for app auth.
+2022-10-09 12:56:26,110 INFO using config /home/soldier/.config/twarc/config
+2022-10-09 12:56:26,110 INFO creating HTTP session headers for app auth.
+2022-10-09 13:01:10,239 INFO using config /home/soldier/.config/twarc/config
+2022-10-09 13:01:10,240 INFO creating HTTP session headers for app auth.
