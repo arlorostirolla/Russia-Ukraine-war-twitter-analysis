@@ -9840,3 +9840,227 @@
 2022-10-09 21:28:16,270 INFO creating HTTP session headers for app auth.
 2022-10-09 21:28:16,286 INFO getting ('https://api.twitter.com/2/tweets/search/all',) {'params': {'expansions': 'author_id,in_reply_to_user_id,referenced_tweets.id,referenced_tweets.id.author_id,entities.mentions.username,attachments.poll_ids,attachments.media_keys,geo.place_id,edit_history_tweet_ids', 'tweet.fields': 'attachments,author_id,context_annotations,conversation_id,created_at,entities,geo,id,in_reply_to_user_id,lang,public_metrics,text,possibly_sensitive,referenced_tweets,reply_settings,source,withheld,edit_controls', 'user.fields': 'created_at,description,entities,id,location,name,pinned_tweet_id,profile_image_url,protected,public_metrics,url,username,verified,withheld', 'media.fields': 'alt_text,duration_ms,height,media_key,preview_image_url,type,url,width,public_metrics', 'poll.fields': 'duration_minutes,end_datetime,id,options,voting_status', 'place.fields': 'contained_within,country,country_code,full_name,geo,id,name,place_type', 'start_time': '2022-09-29T00:00:00+00:00', 'end_time': '2022-10-03T00:00:00+00:00', 'query': '(putin annex ukraine) OR (putin annex Kherson) OR (putin annex Luhansk) OR (putin annex Donetsk) OR (putin annex Zaporizhzhia)', 'max_results': 100}}
 2022-10-09 21:28:16,724 ERROR Unexpected HTTP response: <Response [403]>
+2022-10-17 23:38:13,822 INFO using config /home/soldier/.config/twarc/config
+2022-10-17 23:38:13,822 INFO creating HTTP session headers for app auth.
+2022-10-17 23:38:13,907 INFO getting ('https://api.twitter.com/2/tweets/search/recent',) {'params': {'expansions': 'author_id,in_reply_to_user_id,referenced_tweets.id,referenced_tweets.id.author_id,entities.mentions.username,attachments.poll_ids,attachments.media_keys,geo.place_id,edit_history_tweet_ids', 'tweet.fields': 'attachments,author_id,context_annotations,conversation_id,created_at,entities,geo,id,in_reply_to_user_id,lang,public_metrics,text,possibly_sensitive,referenced_tweets,reply_settings,source,withheld,edit_controls', 'user.fields': 'created_at,description,entities,id,location,name,pinned_tweet_id,profile_image_url,protected,public_metrics,url,username,verified,withheld', 'media.fields': 'alt_text,duration_ms,height,media_key,preview_image_url,type,url,width,public_metrics', 'poll.fields': 'duration_minutes,end_datetime,id,options,voting_status', 'place.fields': 'contained_within,country,country_code,full_name,geo,id,name,place_type', 'start_time': '2022-09-30T00:00:00+00:00', 'end_time': '2022-10-02T00:00:00+00:00', 'query': '(putin annex ukraine) OR (putin annexation ukraine) OR (putin annexes ukraine) OR (putin annexed ukraine)', 'max_results': 100}}
+2022-10-17 23:38:14,450 ERROR Unexpected HTTP response: <Response [400]>
+2022-10-17 23:38:40,858 INFO using config /home/soldier/.config/twarc/config
+2022-10-17 23:38:40,859 INFO creating HTTP session headers for app auth.
+2022-10-17 23:38:40,876 INFO getting ('https://api.twitter.com/2/tweets/search/recent',) {'params': {'expansions': 'author_id,in_reply_to_user_id,referenced_tweets.id,referenced_tweets.id.author_id,entities.mentions.username,attachments.poll_ids,attachments.media_keys,geo.place_id,edit_history_tweet_ids', 'tweet.fields': 'attachments,author_id,context_annotations,conversation_id,created_at,entities,geo,id,in_reply_to_user_id,lang,public_metrics,text,possibly_sensitive,referenced_tweets,reply_settings,source,withheld,edit_controls', 'user.fields': 'created_at,description,entities,id,location,name,pinned_tweet_id,profile_image_url,protected,public_metrics,url,username,verified,withheld', 'media.fields': 'alt_text,duration_ms,height,media_key,preview_image_url,type,url,width,public_metrics', 'poll.fields': 'duration_minutes,end_datetime,id,options,voting_status', 'place.fields': 'contained_within,country,country_code,full_name,geo,id,name,place_type', 'start_time': '2022-09-30T00:00:00+00:00', 'end_time': '2022-10-10T00:00:00+00:00', 'query': '(putin annex ukraine) OR (putin annexation ukraine) OR (putin annexes ukraine) OR (putin annexed ukraine)', 'max_results': 100}}
+2022-10-17 23:38:41,326 ERROR Unexpected HTTP response: <Response [400]>
+2022-10-17 23:42:21,128 INFO using config /home/soldier/.config/twarc/config
+2022-10-17 23:42:21,128 INFO creating HTTP session headers for app auth.
+2022-10-17 23:42:21,146 INFO getting ('https://api.twitter.com/2/tweets/search/recent',) {'params': {'expansions': 'author_id,in_reply_to_user_id,referenced_tweets.id,referenced_tweets.id.author_id,entities.mentions.username,attachments.poll_ids,attachments.media_keys,geo.place_id,edit_history_tweet_ids', 'tweet.fields': 'attachments,author_id,context_annotations,conversation_id,created_at,entities,geo,id,in_reply_to_user_id,lang,public_metrics,text,possibly_sensitive,referenced_tweets,reply_settings,source,withheld,edit_controls', 'user.fields': 'created_at,description,entities,id,location,name,pinned_tweet_id,profile_image_url,protected,public_metrics,url,username,verified,withheld', 'media.fields': 'alt_text,duration_ms,height,media_key,preview_image_url,type,url,width,public_metrics', 'poll.fields': 'duration_minutes,end_datetime,id,options,voting_status', 'place.fields': 'contained_within,country,country_code,full_name,geo,id,name,place_type', 'start_time': '2022-09-30T00:00:00+00:00', 'end_time': '2022-10-10T00:00:00+00:00', 'query': '(putin OR russia) annex (ukraine OR luhansk OR donetsk OR zaporizhzhia OR kherson)', 'max_results': 100}}
+2022-10-17 23:42:21,652 ERROR Unexpected HTTP response: <Response [400]>
+2022-10-17 23:42:33,648 INFO using config /home/soldier/.config/twarc/config
+2022-10-17 23:42:33,649 INFO creating HTTP session headers for app auth.
+2022-10-17 23:42:47,199 INFO using config /home/soldier/.config/twarc/config
+2022-10-17 23:42:47,199 INFO creating HTTP session headers for app auth.
+2022-10-17 23:42:47,217 INFO getting ('https://api.twitter.com/2/tweets/search/recent',) {'params': {'expansions': 'author_id,in_reply_to_user_id,referenced_tweets.id,referenced_tweets.id.author_id,entities.mentions.username,attachments.poll_ids,attachments.media_keys,geo.place_id,edit_history_tweet_ids', 'tweet.fields': 'attachments,author_id,context_annotations,conversation_id,created_at,entities,geo,id,in_reply_to_user_id,lang,public_metrics,text,possibly_sensitive,referenced_tweets,reply_settings,source,withheld,edit_controls', 'user.fields': 'created_at,description,entities,id,location,name,pinned_tweet_id,profile_image_url,protected,public_metrics,url,username,verified,withheld', 'media.fields': 'alt_text,duration_ms,height,media_key,preview_image_url,type,url,width,public_metrics', 'poll.fields': 'duration_minutes,end_datetime,id,options,voting_status', 'place.fields': 'contained_within,country,country_code,full_name,geo,id,name,place_type', 'start_time': '2022-09-30T00:00:00+00:00', 'end_time': '2022-10-10T12:42:00+00:00', 'query': '(putin OR russia) annex (ukraine OR luhansk OR donetsk OR zaporizhzhia OR kherson)', 'max_results': 100}}
+2022-10-17 23:42:47,719 ERROR Unexpected HTTP response: <Response [400]>
+2022-10-17 23:42:56,173 INFO using config /home/soldier/.config/twarc/config
+2022-10-17 23:42:56,173 INFO creating HTTP session headers for app auth.
+2022-10-17 23:43:06,128 INFO using config /home/soldier/.config/twarc/config
+2022-10-17 23:43:06,128 INFO creating HTTP session headers for app auth.
+2022-10-17 23:43:06,150 INFO getting ('https://api.twitter.com/2/tweets/search/recent',) {'params': {'expansions': 'author_id,in_reply_to_user_id,referenced_tweets.id,referenced_tweets.id.author_id,entities.mentions.username,attachments.poll_ids,attachments.media_keys,geo.place_id,edit_history_tweet_ids', 'tweet.fields': 'attachments,author_id,context_annotations,conversation_id,created_at,entities,geo,id,in_reply_to_user_id,lang,public_metrics,text,possibly_sensitive,referenced_tweets,reply_settings,source,withheld,edit_controls', 'user.fields': 'created_at,description,entities,id,location,name,pinned_tweet_id,profile_image_url,protected,public_metrics,url,username,verified,withheld', 'media.fields': 'alt_text,duration_ms,height,media_key,preview_image_url,type,url,width,public_metrics', 'poll.fields': 'duration_minutes,end_datetime,id,options,voting_status', 'place.fields': 'contained_within,country,country_code,full_name,geo,id,name,place_type', 'start_time': '2022-09-30T00:00:00+00:00', 'end_time': '2022-10-11T00:00:00+00:00', 'query': '(putin OR russia) annex (ukraine OR luhansk OR donetsk OR zaporizhzhia OR kherson)', 'max_results': 100}}
+2022-10-17 23:43:06,683 ERROR Unexpected HTTP response: <Response [400]>
+2022-10-17 23:45:16,264 INFO using config /home/soldier/.config/twarc/config
+2022-10-17 23:45:16,265 INFO creating HTTP session headers for app auth.
+2022-10-17 23:45:16,282 INFO getting ('https://api.twitter.com/2/tweets/search/all',) {'params': {'expansions': 'author_id,in_reply_to_user_id,referenced_tweets.id,referenced_tweets.id.author_id,entities.mentions.username,attachments.poll_ids,attachments.media_keys,geo.place_id,edit_history_tweet_ids', 'tweet.fields': 'attachments,author_id,context_annotations,conversation_id,created_at,entities,geo,id,in_reply_to_user_id,lang,public_metrics,text,possibly_sensitive,referenced_tweets,reply_settings,source,withheld,edit_controls', 'user.fields': 'created_at,description,entities,id,location,name,pinned_tweet_id,profile_image_url,protected,public_metrics,url,username,verified,withheld', 'media.fields': 'alt_text,duration_ms,height,media_key,preview_image_url,type,url,width,public_metrics', 'poll.fields': 'duration_minutes,end_datetime,id,options,voting_status', 'place.fields': 'contained_within,country,country_code,full_name,geo,id,name,place_type', 'start_time': '2022-09-30T00:00:00+00:00', 'end_time': '2022-10-02T00:00:00+00:00', 'query': '(putin OR russia) annex (ukraine OR luhansk OR donetsk OR zaporizhzhia OR kherson)', 'max_results': 100}}
+2022-10-17 23:45:16,733 ERROR Unexpected HTTP response: <Response [403]>
+2022-10-17 23:49:07,345 INFO loading None profile from config /home/soldier/.twarc
+2022-10-17 23:49:13,552 INFO loading None profile from config /home/soldier/.twarc
+2022-10-17 23:50:04,557 WARNING process received SIGNT, stopping
+2022-10-17 23:50:05,517 INFO loading None profile from config /home/soldier/.twarc
+2022-10-17 23:50:10,017 WARNING process received SIGNT, stopping
+2022-10-17 23:50:11,098 INFO loading None profile from config /home/soldier/.twarc
+2022-10-17 23:50:37,423 INFO loading None profile from config /home/soldier/.twarc
+2022-10-17 23:50:37,428 INFO creating http session
+2022-10-17 23:50:37,428 INFO creating OAuth1 user authentication
+2022-10-17 23:50:37,429 INFO getting ('https://api.twitter.com/1.1/account/verify_credentials.json',) {'params': {'tweet_mode': 'extended'}}
+2022-10-17 23:52:50,470 INFO loading None profile from config /home/soldier/.twarc
+2022-10-17 23:52:50,471 INFO creating http session
+2022-10-17 23:52:50,471 INFO creating OAuth1 user authentication
+2022-10-17 23:52:50,471 INFO getting ('https://api.twitter.com/1.1/account/verify_credentials.json',) {'params': {'tweet_mode': 'extended'}}
+2022-10-17 23:54:49,149 INFO loading None profile from config /home/soldier/.twarc
+2022-10-17 23:54:49,149 INFO creating http session
+2022-10-17 23:54:49,150 INFO creating OAuth1 user authentication
+2022-10-17 23:54:49,150 INFO getting ('https://api.twitter.com/1.1/account/verify_credentials.json',) {'params': {'tweet_mode': 'extended'}}
+2022-10-17 23:55:09,156 WARNING process received SIGNT, stopping
+2022-10-17 23:55:12,042 INFO loading None profile from config /home/soldier/.twarc
+2022-10-17 23:55:12,043 INFO creating http session
+2022-10-17 23:55:12,043 INFO creating OAuth1 user authentication
+2022-10-17 23:55:12,044 INFO getting ('https://api.twitter.com/1.1/account/verify_credentials.json',) {'params': {'tweet_mode': 'extended'}}
+2022-10-17 23:55:32,051 ERROR caught connection error HTTPSConnectionPool(host='api.twitter.com', port=443): Max retries exceeded with url: /1.1/account/verify_credentials.json?tweet_mode=extended (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fe9bc8d1850>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution')) on 1 try
+2022-10-17 23:55:32,051 INFO closing existing http session
+2022-10-17 23:55:32,051 INFO creating http session
+2022-10-17 23:55:32,052 INFO creating OAuth1 user authentication
+2022-10-17 23:55:32,052 INFO getting ('https://api.twitter.com/1.1/account/verify_credentials.json',) {'params': {'tweet_mode': 'extended'}}
+2022-10-17 23:55:52,057 ERROR caught connection error HTTPSConnectionPool(host='api.twitter.com', port=443): Max retries exceeded with url: /1.1/account/verify_credentials.json?tweet_mode=extended (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fe9bc8d6b80>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution')) on 2 try
+2022-10-17 23:55:52,057 INFO closing existing http session
+2022-10-17 23:55:52,057 INFO creating http session
+2022-10-17 23:55:52,057 INFO creating OAuth1 user authentication
+2022-10-17 23:55:52,058 INFO getting ('https://api.twitter.com/1.1/account/verify_credentials.json',) {'params': {'tweet_mode': 'extended'}}
+2022-10-17 23:56:12,062 ERROR caught connection error HTTPSConnectionPool(host='api.twitter.com', port=443): Max retries exceeded with url: /1.1/account/verify_credentials.json?tweet_mode=extended (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fe9bc8eb820>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution')) on 3 try
+2022-10-17 23:56:12,062 INFO closing existing http session
+2022-10-17 23:56:12,062 INFO creating http session
+2022-10-17 23:56:12,062 INFO creating OAuth1 user authentication
+2022-10-17 23:56:12,062 INFO getting ('https://api.twitter.com/1.1/account/verify_credentials.json',) {'params': {'tweet_mode': 'extended'}}
+2022-10-17 23:56:32,066 ERROR caught connection error HTTPSConnectionPool(host='api.twitter.com', port=443): Max retries exceeded with url: /1.1/account/verify_credentials.json?tweet_mode=extended (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fe9bc90e430>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution')) on 4 try
+2022-10-17 23:56:32,067 INFO closing existing http session
+2022-10-17 23:56:32,067 INFO creating http session
+2022-10-17 23:56:32,067 INFO creating OAuth1 user authentication
+2022-10-17 23:56:32,067 INFO getting ('https://api.twitter.com/1.1/account/verify_credentials.json',) {'params': {'tweet_mode': 'extended'}}
+2022-10-17 23:56:52,072 WARNING process received SIGNT, stopping
+2022-10-18 00:15:34,462 INFO loading None profile from config /home/soldier/.twarc
+2022-10-18 00:15:34,467 INFO creating http session
+2022-10-18 00:15:34,467 INFO creating OAuth1 user authentication
+2022-10-18 00:15:34,468 INFO getting ('https://api.twitter.com/1.1/account/verify_credentials.json',) {'params': {'tweet_mode': 'extended'}}
+2022-10-18 00:15:39,564 WARNING process received SIGNT, stopping
+2022-10-18 00:15:45,473 INFO loading None profile from config /home/soldier/.twarc
+2022-10-18 00:15:45,474 INFO creating http session
+2022-10-18 00:15:45,474 INFO creating OAuth1 user authentication
+2022-10-18 00:15:45,474 INFO getting ('https://api.twitter.com/1.1/account/verify_credentials.json',) {'params': {'tweet_mode': 'extended'}}
+2022-10-18 00:15:49,660 INFO loading None profile from config /home/soldier/.twarc
+2022-10-18 00:15:49,661 INFO creating http session
+2022-10-18 00:15:49,661 INFO creating OAuth1 user authentication
+2022-10-18 00:15:49,662 INFO getting ('https://api.twitter.com/1.1/account/verify_credentials.json',) {'params': {'tweet_mode': 'extended'}}
+2022-10-18 00:16:36,778 INFO loading None profile from config /home/soldier/.twarc
+2022-10-18 00:16:36,779 INFO creating http session
+2022-10-18 00:16:36,779 INFO creating OAuth1 user authentication
+2022-10-18 00:16:36,780 INFO getting ('https://api.twitter.com/1.1/account/verify_credentials.json',) {'params': {'tweet_mode': 'extended'}}
+2022-10-18 00:16:57,357 INFO loading None profile from config /home/soldier/.twarc
+2022-10-18 00:16:57,358 INFO creating http session
+2022-10-18 00:16:57,358 INFO creating OAuth1 user authentication
+2022-10-18 00:16:57,359 INFO getting ('https://api.twitter.com/1.1/account/verify_credentials.json',) {'params': {'tweet_mode': 'extended'}}
+2022-10-18 00:20:13,710 INFO loading None profile from config /home/soldier/.twarc
+2022-10-18 00:20:13,710 INFO creating http session
+2022-10-18 00:20:13,710 INFO creating OAuth1 user authentication
+2022-10-18 00:20:13,711 INFO getting ('https://api.twitter.com/1.1/account/verify_credentials.json',) {'params': {'tweet_mode': 'extended'}}
+2022-10-18 00:20:18,050 INFO loading None profile from config /home/soldier/.twarc
+2022-10-18 00:20:45,831 INFO loading None profile from config /home/soldier/.twarc
+2022-10-18 00:21:18,436 WARNING process received SIGNT, stopping
+2022-10-18 00:21:19,499 INFO loading None profile from config /home/soldier/.twarc
+2022-10-18 00:22:08,921 INFO loading None profile from config /home/soldier/.twarc
+2022-10-18 00:22:08,923 INFO creating http session
+2022-10-18 00:22:08,923 INFO creating OAuth1 user authentication
+2022-10-18 00:22:08,923 INFO getting ('https://api.twitter.com/1.1/account/verify_credentials.json',) {'params': {'tweet_mode': 'extended'}}
+2022-10-18 00:22:38,044 INFO loading None profile from config /home/soldier/.twarc
+2022-10-18 00:22:38,045 INFO creating http session
+2022-10-18 00:22:38,045 INFO creating OAuth1 user authentication
+2022-10-18 00:22:38,045 INFO getting ('https://api.twitter.com/1.1/account/verify_credentials.json',) {'params': {'tweet_mode': 'extended'}}
+2022-10-18 00:27:36,722 INFO loading None profile from config /home/soldier/.twarc
+2022-10-18 00:27:36,722 INFO creating http session
+2022-10-18 00:27:36,722 INFO creating OAuth1 user authentication
+2022-10-18 00:27:36,723 INFO getting ('https://api.twitter.com/1.1/account/verify_credentials.json',) {'params': {'tweet_mode': 'extended'}}
+2022-10-18 00:30:38,672 INFO loading None profile from config /home/soldier/.twarc
+2022-10-18 00:30:38,673 INFO creating http session
+2022-10-18 00:30:38,673 INFO creating OAuth1 user authentication
+2022-10-18 00:30:38,673 INFO getting ('https://api.twitter.com/1.1/account/verify_credentials.json',) {'params': {'tweet_mode': 'extended'}}
+2022-10-18 00:30:56,993 INFO loading None profile from config /home/soldier/.twarc
+2022-10-18 00:30:56,993 INFO creating http session
+2022-10-18 00:30:56,993 INFO creating OAuth1 user authentication
+2022-10-18 00:30:56,994 INFO getting ('https://api.twitter.com/1.1/account/verify_credentials.json',) {'params': {'tweet_mode': 'extended'}}
+2022-10-18 00:31:09,865 INFO loading None profile from config /home/soldier/.twarc
+2022-10-18 00:31:09,865 INFO creating http session
+2022-10-18 00:31:09,865 INFO creating OAuth1 user authentication
+2022-10-18 00:31:09,866 INFO getting ('https://api.twitter.com/1.1/account/verify_credentials.json',) {'params': {'tweet_mode': 'extended'}}
+2022-10-18 00:36:49,501 INFO loading None profile from config /home/soldier/.twarc
+2022-10-18 00:40:05,882 WARNING process received SIGNT, stopping
+2022-10-18 00:40:07,265 INFO loading None profile from config /home/soldier/.twarc
+2022-10-18 00:40:47,445 INFO loading None profile from config /home/soldier/.twarc
+2022-10-18 00:40:47,450 INFO creating http session
+2022-10-18 00:40:47,450 INFO creating OAuth1 user authentication
+2022-10-18 00:40:47,450 INFO getting ('https://api.twitter.com/1.1/account/verify_credentials.json',) {'params': {'tweet_mode': 'extended'}}
+2022-10-18 00:48:46,926 INFO loading None profile from config /home/soldier/.twarc
+2022-10-18 00:48:46,927 INFO creating http session
+2022-10-18 00:48:46,927 INFO creating OAuth1 user authentication
+2022-10-18 00:48:46,927 INFO getting ('https://api.twitter.com/1.1/account/verify_credentials.json',) {'params': {'tweet_mode': 'extended'}}
+2022-10-18 00:48:59,029 INFO loading None profile from config /home/soldier/.twarc
+2022-10-18 00:48:59,030 INFO creating http session
+2022-10-18 00:48:59,030 INFO creating OAuth1 user authentication
+2022-10-18 00:48:59,030 INFO getting ('https://api.twitter.com/1.1/account/verify_credentials.json',) {'params': {'tweet_mode': 'extended'}}
+2022-10-18 00:50:28,623 INFO loading None profile from config /home/soldier/.twarc
+2022-10-18 00:50:28,623 INFO creating http session
+2022-10-18 00:50:28,623 INFO creating OAuth1 user authentication
+2022-10-18 00:50:28,624 INFO getting ('https://api.twitter.com/1.1/account/verify_credentials.json',) {'params': {'tweet_mode': 'extended'}}
+2022-10-18 00:55:18,718 INFO creating http session
+2022-10-18 00:55:18,718 INFO creating OAuth1 user authentication
+2022-10-18 00:55:18,719 INFO getting ('https://api.twitter.com/1.1/account/verify_credentials.json',) {'params': {'tweet_mode': 'extended'}}
+2022-10-18 00:55:49,709 INFO creating http session
+2022-10-18 00:55:49,709 INFO creating OAuth1 user authentication
+2022-10-18 00:55:49,709 INFO getting ('https://api.twitter.com/1.1/account/verify_credentials.json',) {'params': {'tweet_mode': 'extended'}}
+2022-10-18 00:56:38,563 INFO creating http session
+2022-10-18 00:56:38,563 INFO creating OAuth1 user authentication
+2022-10-18 00:56:38,563 INFO getting ('https://api.twitter.com/1.1/account/verify_credentials.json',) {'params': {'tweet_mode': 'extended'}}
+2022-10-18 00:57:46,790 INFO loading None profile from config /home/soldier/.twarc
+2022-10-18 00:58:34,718 INFO loading None profile from config /home/soldier/.twarc
+2022-10-18 00:58:34,723 INFO creating http session
+2022-10-18 00:58:34,723 INFO creating OAuth1 user authentication
+2022-10-18 00:58:34,723 INFO getting ('https://api.twitter.com/1.1/account/verify_credentials.json',) {'params': {'tweet_mode': 'extended'}}
+2022-10-18 00:58:35,772 WARNING 401 Authentication required for https://api.twitter.com/1.1/account/verify_credentials.json?tweet_mode=extended
+2022-10-18 01:02:20,517 INFO loading None profile from config /home/soldier/.twarc
+2022-10-18 01:02:20,518 INFO creating http session
+2022-10-18 01:02:20,518 INFO creating OAuth1 user authentication
+2022-10-18 01:02:20,518 INFO getting ('https://api.twitter.com/1.1/account/verify_credentials.json',) {'params': {'tweet_mode': 'extended'}}
+2022-10-18 01:02:21,335 WARNING 401 Authentication required for https://api.twitter.com/1.1/account/verify_credentials.json?tweet_mode=extended
+2022-10-18 01:02:51,018 INFO loading None profile from config /home/soldier/.twarc
+2022-10-18 01:03:15,213 INFO loading None profile from config /home/soldier/.twarc
+2022-10-18 01:03:31,453 WARNING process received SIGNT, stopping
+2022-10-18 01:03:33,092 INFO loading None profile from config /home/soldier/.twarc
+2022-10-18 01:03:38,071 WARNING process received SIGNT, stopping
+2022-10-18 01:03:39,026 INFO loading None profile from config /home/soldier/.twarc
+2022-10-18 01:04:00,781 INFO loading None profile from config /home/soldier/.twarc
+2022-10-18 01:04:00,786 INFO creating http session
+2022-10-18 01:04:00,786 INFO creating OAuth1 user authentication
+2022-10-18 01:04:00,786 INFO getting ('https://api.twitter.com/1.1/account/verify_credentials.json',) {'params': {'tweet_mode': 'extended'}}
+2022-10-18 01:04:24,958 INFO loading None profile from config /home/soldier/.twarc
+2022-10-18 01:04:31,188 INFO loading None profile from config /home/soldier/.twarc
+2022-10-18 01:04:50,847 INFO loading None profile from config /home/soldier/.twarc
+2022-10-18 01:04:50,852 INFO creating http session
+2022-10-18 01:04:50,852 INFO creating OAuth1 user authentication
+2022-10-18 01:04:50,852 INFO getting ('https://api.twitter.com/1.1/account/verify_credentials.json',) {'params': {'tweet_mode': 'extended'}}
+2022-10-18 01:05:10,549 INFO loading None profile from config /home/soldier/.twarc
+2022-10-18 01:05:10,550 INFO creating http session
+2022-10-18 01:05:10,550 INFO creating OAuth1 user authentication
+2022-10-18 01:05:10,550 INFO getting ('https://api.twitter.com/1.1/account/verify_credentials.json',) {'params': {'tweet_mode': 'extended'}}
+2022-10-18 01:05:22,867 INFO loading None profile from config /home/soldier/.twarc
+2022-10-18 01:05:22,867 INFO creating http session
+2022-10-18 01:05:22,868 INFO creating OAuth1 user authentication
+2022-10-18 01:05:22,868 INFO getting ('https://api.twitter.com/1.1/account/verify_credentials.json',) {'params': {'tweet_mode': 'extended'}}
+2022-10-18 01:05:38,433 INFO loading None profile from config /home/soldier/.twarc
+2022-10-18 01:05:38,434 INFO creating http session
+2022-10-18 01:05:38,434 INFO creating OAuth1 user authentication
+2022-10-18 01:05:38,434 INFO getting ('https://api.twitter.com/1.1/account/verify_credentials.json',) {'params': {'tweet_mode': 'extended'}}
+2022-10-18 01:05:48,705 INFO loading None profile from config /home/soldier/.twarc
+2022-10-18 01:05:48,705 INFO creating http session
+2022-10-18 01:05:48,705 INFO creating OAuth1 user authentication
+2022-10-18 01:05:48,706 INFO getting ('https://api.twitter.com/1.1/account/verify_credentials.json',) {'params': {'tweet_mode': 'extended'}}
+2022-10-18 01:13:52,436 INFO using config /home/soldier/.config/twarc/config
+2022-10-18 01:13:52,436 INFO creating HTTP session headers for app auth.
+2022-10-18 01:13:52,493 INFO getting ('https://api.twitter.com/2/tweets/search/recent',) {'params': {'expansions': 'author_id,in_reply_to_user_id,referenced_tweets.id,referenced_tweets.id.author_id,entities.mentions.username,attachments.poll_ids,attachments.media_keys,geo.place_id,edit_history_tweet_ids', 'tweet.fields': 'attachments,author_id,context_annotations,conversation_id,created_at,entities,geo,id,in_reply_to_user_id,lang,public_metrics,text,possibly_sensitive,referenced_tweets,reply_settings,source,withheld,edit_controls', 'user.fields': 'created_at,description,entities,id,location,name,pinned_tweet_id,profile_image_url,protected,public_metrics,url,username,verified,withheld', 'media.fields': 'alt_text,duration_ms,height,media_key,preview_image_url,type,url,width,public_metrics', 'poll.fields': 'duration_minutes,end_datetime,id,options,voting_status', 'place.fields': 'contained_within,country,country_code,full_name,geo,id,name,place_type', 'start_time': None, 'end_time': None, 'query': 'climatestrike', 'max_results': 100}}
+2022-10-18 01:13:53,064 ERROR Unexpected HTTP response: <Response [401]>
+2022-10-18 01:15:17,482 INFO loading None profile from config /home/soldier/.twarc
+2022-10-18 01:15:17,483 INFO creating http session
+2022-10-18 01:15:17,483 INFO creating OAuth1 user authentication
+2022-10-18 01:15:17,483 INFO getting ('https://api.twitter.com/1.1/account/verify_credentials.json',) {'params': {'tweet_mode': 'extended'}}
+2022-10-18 01:15:53,001 INFO loading None profile from config /home/soldier/.twarc
+2022-10-18 01:15:53,001 INFO creating http session
+2022-10-18 01:15:53,001 INFO creating OAuth1 user authentication
+2022-10-18 01:15:53,002 INFO getting ('https://api.twitter.com/1.1/search/tweets.json',) {'params': {'count': 100, 'q': 'climatestrike', 'include_ext_alt_text': 'true', 'include_entities': 'true', 'result_type': 'recent', 'tweet_mode': 'extended'}}
+2022-10-18 01:16:48,292 INFO loading None profile from config /home/soldier/.twarc
+2022-10-18 01:16:48,293 INFO creating http session
+2022-10-18 01:16:48,293 INFO creating OAuth1 user authentication
+2022-10-18 01:16:48,293 INFO getting ('https://api.twitter.com/1.1/account/verify_credentials.json',) {'params': {'tweet_mode': 'compat'}}
+2022-10-18 01:17:20,209 INFO loading None profile from config /home/soldier/.twarc
+2022-10-18 01:17:20,210 INFO creating http session
+2022-10-18 01:17:20,210 INFO creating OAuth1 user authentication
+2022-10-18 01:17:20,210 INFO getting ('https://api.twitter.com/1.1/account/verify_credentials.json',) {'params': {'tweet_mode': 'extended'}}
+2022-10-18 01:18:00,774 INFO loading None profile from config /home/soldier/.twarc
+2022-10-18 01:18:00,774 INFO creating http session
+2022-10-18 01:18:00,774 INFO creating OAuth1 user authentication
+2022-10-18 01:18:00,775 INFO getting ('https://api.twitter.com/1.1/account/verify_credentials.json',) {'params': {'tweet_mode': 'compat'}}
+2022-10-18 01:19:58,760 INFO loading None profile from config /home/soldier/.twarc
+2022-10-18 01:19:58,761 INFO creating http session
+2022-10-18 01:19:58,761 INFO creating OAuth1 user authentication
+2022-10-18 01:19:58,762 INFO getting ('https://api.twitter.com/1.1/account/verify_credentials.json',) {'params': {'tweet_mode': 'extended'}}
